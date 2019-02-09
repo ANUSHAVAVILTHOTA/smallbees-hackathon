@@ -46,6 +46,7 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
     {path: 'products' , component:ProductsComponent},
     {path: 'contactus',component:ContactusComponent},
     {path: 'aboutus' , component: AboutusComponent}
+
     
 
     ]),
