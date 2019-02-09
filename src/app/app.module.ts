@@ -22,10 +22,12 @@ import { ThresherComponent } from './products/thresher/thresher.component';
 import { PloughComponent } from './products/plough/plough.component';
 
 
+import {MatTabsModule} from '@angular/material/tabs'; 
+
 import {MatIconModule} from '@angular/material/icon';
 import { VideosComponent } from './components/videos/videos.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
-import { AboutusComponent } from './components/aboutus/aboutus.component';
+
 
 
 
@@ -42,7 +44,6 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
     PloughComponent,
     ProductsComponent,
     ContactusComponent,
-    AboutusComponent,
     VideosComponent
   ],
   imports: [
@@ -51,10 +52,6 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
     RouterModule.forRoot([
     {path: '', redirectTo: '/home', pathMatch: 'full'},
     {path: 'home', component: HomeComponent},
-    {path: 'videos', component:VideosComponent},
-    {path: 'products' , component:ProductsComponent},
-    {path: 'contactus',component:ContactusComponent},
-    {path: 'aboutus' , component: AboutusComponent},
     {path: 'products', component: ProductsComponent},
     {path: 'productpage', component: ProductpageComponent},
     {path: 'thresher', component: ThresherComponent},
@@ -69,8 +66,9 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
     MatButtonModule,
     MatDividerModule,
     MatBadgeModule,
-    MatIconModule
-  
+    MatIconModule,
+    MatTabsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
