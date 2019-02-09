@@ -22,6 +22,13 @@ import { ThresherComponent } from './products/thresher/thresher.component';
 import { PloughComponent } from './products/plough/plough.component';
 
 
+import {MatIconModule} from '@angular/material/icon';
+import { VideosComponent } from './components/videos/videos.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +38,9 @@ import { PloughComponent } from './products/plough/plough.component';
     ProductsComponent,
     ProductpageComponent,
     ThresherComponent,
-    PloughComponent
+    PloughComponent,
+    ProductsComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
@@ -42,13 +51,19 @@ import { PloughComponent } from './products/plough/plough.component';
     {path: 'products', component: ProductsComponent},
     {path: 'productpage', component: ProductpageComponent},
     {path: 'thresher', component: ThresherComponent},
-    {path: 'plough', component: PloughComponent}
+    {path: 'plough', component: PloughComponent},
+    {path: 'videos', component: VideosComponent},
+    {path: 'products' , component: ProductsComponent},
+    {path: 'contactus', component: ContactusComponent}
+
 
     ]),
     MatInputModule,
     MatButtonModule,
     MatDividerModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatIconModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
