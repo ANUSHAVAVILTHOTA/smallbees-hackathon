@@ -1,0 +1,28 @@
+.zoom {}
+
+.zoom:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+    /* -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, .16), 0 0px 0px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, .16), 0 0px 0px 0 rgba(0, 0, 0, .12);
+    border: 0px;
+    border-top-color: ;
+    border-top-style: ;
+    border-top-width: ;
+    border-right-color: ;
+    border-right-style: ;
+    border-right-width: ;
+    border-bottom-color: ;
+    border-bottom-style: ;
+    border-bottom-width: ;
+    border-left-color: ;
+    border-left-style: ;
+    border-left-width: ;
+    border-image-outset: ;
+    border-image-repeat: ;
+    border-image-slice: ;
+    border-image-source: ;
+    border-image-width: ; */
+}

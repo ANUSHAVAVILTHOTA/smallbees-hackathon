@@ -14,11 +14,16 @@ import {MatButtonModule} from '@angular/material/button';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { ProductsComponent } from './products/products/products.component';
+import {MatDividerModule} from '@angular/material/divider'; 
+import {MatBadgeModule} from '@angular/material/badge'; 
+import { ProductpageComponent } from './products/productpage/productpage.component';
+import { ThresherComponent } from './products/thresher/thresher.component';
+import { PloughComponent } from './products/plough/plough.component';
 
 
 import {MatIconModule} from '@angular/material/icon';
 import { VideosComponent } from './components/videos/videos.component';
-import { ProductsComponent } from './components/products/products.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 
@@ -31,10 +36,14 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    VideosComponent,
+    ProductsComponent,
+    ProductpageComponent,
+    ThresherComponent,
+    PloughComponent,
     ProductsComponent,
     ContactusComponent,
-    AboutusComponent
+    AboutusComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,
@@ -45,13 +54,21 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
     {path: 'videos', component:VideosComponent},
     {path: 'products' , component:ProductsComponent},
     {path: 'contactus',component:ContactusComponent},
-    {path: 'aboutus' , component: AboutusComponent}
+    {path: 'aboutus' , component: AboutusComponent},
+    {path: 'products', component: ProductsComponent},
+    {path: 'productpage', component: ProductpageComponent},
+    {path: 'thresher', component: ThresherComponent},
+    {path: 'plough', component: PloughComponent},
+    {path: 'videos', component: VideosComponent},
+    {path: 'products' , component: ProductsComponent},
+    {path: 'contactus', component: ContactusComponent}
 
-    
 
     ]),
     MatInputModule,
     MatButtonModule,
+    MatDividerModule,
+    MatBadgeModule,
     MatIconModule
   
   ],
