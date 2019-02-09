@@ -20,6 +20,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { VideosComponent } from './components/videos/videos.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
 
 
 
@@ -32,7 +33,8 @@ import { ContactusComponent } from './components/contactus/contactus.component';
     HomeComponent,
     VideosComponent,
     ProductsComponent,
-    ContactusComponent
+    ContactusComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +44,8 @@ import { ContactusComponent } from './components/contactus/contactus.component';
     {path: 'home', component: HomeComponent},
     {path: 'videos', component:VideosComponent},
     {path: 'products' , component:ProductsComponent},
-    {path: 'contactus',component:ContactusComponent}
+    {path: 'contactus',component:ContactusComponent},
+    {path: 'aboutus' , component: AboutusComponent}
     
 
     ]),
