@@ -16,12 +16,23 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 
 
+import {MatIconModule} from '@angular/material/icon';
+import { VideosComponent } from './components/videos/videos.component';
+import { ProductsComponent } from './components/products/products.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    VideosComponent,
+    ProductsComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
@@ -29,10 +40,16 @@ import { HomeComponent } from './components/home/home.component';
     RouterModule.forRoot([
     {path: '', redirectTo: '/home', pathMatch: 'full'},
     {path: 'home', component: HomeComponent},
+    {path: 'videos', component:VideosComponent},
+    {path: 'products' , component:ProductsComponent},
+    {path: 'contactus',component:ContactusComponent}
+    
 
     ]),
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
