@@ -1,4 +1,7 @@
-p {
+.h {
+    color: green;
+}
+p{
     color: wheat;
 }
 
