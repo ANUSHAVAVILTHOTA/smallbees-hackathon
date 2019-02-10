@@ -27,6 +27,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatIconModule} from '@angular/material/icon';
 import { VideosComponent } from './components/videos/videos.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
 
 
 
@@ -44,7 +45,8 @@ import { ContactusComponent } from './components/contactus/contactus.component';
     PloughComponent,
     ProductsComponent,
     ContactusComponent,
-    VideosComponent
+    VideosComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
@@ -58,7 +60,8 @@ import { ContactusComponent } from './components/contactus/contactus.component';
     {path: 'plough', component: PloughComponent},
     {path: 'videos', component: VideosComponent},
     {path: 'products' , component: ProductsComponent},
-    {path: 'contactus', component: ContactusComponent}
+    {path: 'contactus', component: ContactusComponent},
+    {path: 'aboutus', component: AboutusComponent}
 
 
     ]),
