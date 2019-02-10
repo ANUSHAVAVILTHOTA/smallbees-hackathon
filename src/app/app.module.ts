@@ -14,6 +14,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { ProductsComponent } from './products/products/products.component';
 import {MatDividerModule} from '@angular/material/divider'; 
 import {MatBadgeModule} from '@angular/material/badge'; 
@@ -27,6 +28,9 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatIconModule} from '@angular/material/icon';
 import { VideosComponent } from './components/videos/videos.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
+
+
+import {MatFormFieldModule} from '@angular/material/form-field'; 
 
 
 
@@ -44,7 +48,8 @@ import { ContactusComponent } from './components/contactus/contactus.component';
     PloughComponent,
     ProductsComponent,
     ContactusComponent,
-    VideosComponent
+    VideosComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
@@ -58,7 +63,8 @@ import { ContactusComponent } from './components/contactus/contactus.component';
     {path: 'plough', component: PloughComponent},
     {path: 'videos', component: VideosComponent},
     {path: 'products' , component: ProductsComponent},
-    {path: 'contactus', component: ContactusComponent}
+    {path: 'contactus', component: ContactusComponent},
+    {path: 'aboutus' , component: AboutusComponent}
 
 
     ]),
@@ -67,7 +73,8 @@ import { ContactusComponent } from './components/contactus/contactus.component';
     MatDividerModule,
     MatBadgeModule,
     MatIconModule,
-    MatTabsModule
+    MatTabsModule,
+    MatFormFieldModule
 
   ],
   providers: [],
