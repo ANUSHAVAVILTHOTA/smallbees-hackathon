@@ -23,6 +23,8 @@ import { ThresherComponent } from './products/thresher/thresher.component';
 import { PloughComponent } from './products/plough/plough.component';
 
 
+import {MatRadioModule} from '@angular/material/radio'; 
+
 import {MatTabsModule} from '@angular/material/tabs'; 
 
 import {MatIconModule} from '@angular/material/icon';
@@ -31,7 +33,10 @@ import { ContactusComponent } from './components/contactus/contactus.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 
 
-import {MatFormFieldModule} from '@angular/material/form-field'; 
+import {MatFormFieldModule} from '@angular/material/form-field';
+
+
+import {MatCheckboxModule} from '@angular/material/checkbox'; 
 
 
 
@@ -75,7 +80,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatBadgeModule,
     MatIconModule,
     MatTabsModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatCheckboxModule,
+    MatRadioModule
 
   ],
   providers: [],
