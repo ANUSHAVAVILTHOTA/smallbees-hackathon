@@ -125,3 +125,30 @@
     .carousel-multi-item-2 .card img {
     border-radius: 2px; }
     
+
+
+    .tractor
+    {
+      padding: 5px;
+      background-color:rgb(2, 9, 71);
+      text-align: center;
+      color: white;
+      font-weight: bold;
+
+    }
+    .thresher
+    {
+      padding: 5px;
+      background-color:rgb(2, 9, 71);
+      text-align: center;
+      color: white;
+      font-weight: bold;
+    }
+    .plough
+    {
+      padding: 5px;
+      background-color:rgb(2, 9, 71);
+      text-align: center;
+      color: white;
+      font-weight: bold;
+    }
